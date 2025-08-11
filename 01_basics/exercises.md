@@ -34,3 +34,32 @@ name = input("What is your name? ")
 age = input("How old are you? ")
 print(f"Hello {name}, you are {age} years old.")
 ```
+
+# Lesson 1: Data Types – Exercises
+
+### 1. String Practice
+- Store your name in a variable.
+- Print it in uppercase and lowercase.
+
+### 2. Integer and Float
+- Store your age.
+- Calculate what year you will turn 100.
+
+### 3. Boolean
+- Store whether you like Python in a variable.
+- Print a sentence like: Do I like Python? True
+
+### 4. List
+- Create a list of your 5 favorite foods.
+- Add another food and print the updated list.
+
+### 5. Tuple
+- Create a tuple of 3 colors you like.
+- Print the second color.
+
+### 6. Dictionary
+- Store your name, age, and favorite hobby in a dictionary.
+- Print each value using its key.
+
+### 7. None
+- Create a variable with `None` and print it.

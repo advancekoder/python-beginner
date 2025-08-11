@@ -39,3 +39,144 @@ name = input("What is your name? ")
 age = input("How old are you? ")
 print(f"Hello {name}, you are {age} years old.")
 # ===================================
+
+## ===================================
+## DATA TYPES EXERCISES
+## ===================================
+## 1. String Practice
+name = "Charles"
+print("Name:", name)
+print("Uppercase:", name.upper())
+print("lowercase:", name.lower())
+## ===================================
+
+## 2. Integer and Float
+# -- Integer Practice--
+age = 32
+print("Age:", age, "Type:", type(age))
+# Calculate year you will turn 100
+current_year = 2025
+year_turn_100 = current_year + (100 - age)
+print("You will turn 100 in the year:", year_turn_100)
+
+# -- Float Practice --
+price = 49.99
+print("Price:", price, "Type:", type(price))
+# Adding tax to the price
+tax_rate = 0.07 # 7% tax
+final_price = price + (price * tax_rate )
+print("Final price with tax:", final_price)
+## ===================================
+
+## 3. Boolean 
+like_python = True
+print("Do you like Python?", like_python)
+# Example of using boolean in a sentence 
+if like_python:
+    print("Great! Python is awesome!")
+else:
+    print("Not really my thing.")
+
+## ===================================
+
+## 4. List Practice
+# Create a list of your 5 favorite foods.
+favorite_foods = ["Wheat", "Semovita", "Beans", "Rice", "Yam"]
+print("Favorite Foods:", favorite_foods)
+# Add a new food to the list
+favorite_foods.append("Pasta")
+print("Updated Favorite Foods:", favorite_foods)
+# Access the first food in the list
+print("First favorite food:", favorite_foods[0])
+# ===================================
+
+## 5. Tuple Practice
+# Create a tuple of your 3 favorite colors
+favorite_colors = ("Red", "Blue", "Green")
+print("Favorite Colors:", favorite_colors)
+# Attempting to change a value in the tuple will raise an error
+# favorite_colors[0] = "Yellow"  # This will give an error because tuples are immutable
+print("Second favorite color:", favorite_colors[1])  
+# ===================================
+
+## 6. Dictionary Practice
+# Store your name, age, and favorite hobby in a dictionary
+my_info = {
+    "name": "Charles",
+    "age": 30,
+    "favorite_hobby": "Coding"
+}
+print("My Info:", my_info)
+# Print each value using its key
+print("Name:", my_info["name"])
+print("Age:", my_info["age"])
+print("Favorite Hobby:", my_info["favorite_hobby"])
+# ===================================
+
+## 7. None Practice
+# Create a variable that is None
+empty_variable = None
+print("Empty Variable:", empty_variable)
+# Check if the variable is None
+if empty_variable is None:
+    print("This variable is empty.")
+# ===================================
+
+### ADDITIONAL DATA TYPES
+# For more advanced usage, here are additional data types in Python:
+# 8️⃣ COMPLEX NUMBER (Real and Imaginary)
+# Complex numbers have a real part and an imaginary part.
+complex_number = 3 + 4j
+print("Complex Number:", complex_number)
+print("Real part:", complex_number.real)
+print("Imaginary part:", complex_number.imag)
+# Complex numbers are used in advanced mathematics and engineering.
+# ===================================
+
+# 9️⃣ SET (Unique collection)
+# Sets are unordered collections of unique items.
+# Sets are like lists but they only keep unique items and are unordered.
+unique_numbers = {1, 2, 3, 4, 5}
+print("Unique numbers:", unique_numbers)
+# Adding a number to the set
+unique_numbers.add(6)
+print("Updated unique numbers:", unique_numbers)
+# Removing a number from the set
+unique_numbers.remove(2)
+print("After removing 2:", unique_numbers)
+# ===================================
+
+# 10️⃣ FROZEN SET (Unchangeable set)
+# Frozen sets are like sets but you cannot change them after creation.
+frozen_numbers = frozenset([1, 2, 3, 4])
+print("Frozen set:", frozen_numbers)
+# frozen_numbers.add(5)  # ❌ This will give an error because frozen sets can't change
+# ===================================
+
+# 11️⃣ BYTE (Binary data)
+# Bytes are used to store binary data, like images or files.
+byte_data = b"Hello"
+print("Byte data:", byte_data)
+# ===================================
+
+# 12️⃣ BYTEARRAY (Mutable byte data)
+# Bytearrays are like bytes but you can change them.
+byte_array = bytearray(b"Hello")
+print("Bytearray data:", byte_array)
+byte_array[0] = 74  # Change first byte to 'H'
+print("Updated Bytearray data:", byte_array)
+# Note: Bytearrays are useful when you need to modify binary data.
+# but to see the actual change of character (as string) in this case use '.decode()'
+print("Updated Bytearray data:", byte_array.decode())
+# ===================================
+
+# 13️⃣ Range
+# Range is a special type used for creating a sequence of numbers.
+number_range = range(5)
+print("Range from 0 to 4:", list(number_range))  # Convert range to a list for display
+# ===================================
+
+
+
+
+

@@ -75,7 +75,6 @@ print(f"Hello {name}, you are {age} years old.")
 
 ======================================================================
 
-
 # Operators - Exercises
 
 ## 1️⃣ Arithmetic Challenge
@@ -111,23 +110,30 @@ Check if two variables point to the same object in memory.
 # Comments - Exercises
 
 ## Exercise 1
+
 Write a program to store your name and print it. Add a comment above each line explaining what it does.
 
 ## Exercise 2
+
 Write a program that calculates 5 + 7 and prints the result. Use inline comments to explain each step.
 
 ## Exercise 3
+
 Write a program that stores your age and tells you if you are an adult (age >= 18). Add a multi-line comment explaining what the program does.
 
 ## Exercise 4: Lets work on something challenging like a real life case
+
 Write a small WHO WANTS TO BE A MILLIONAIRE program that:
-* Asks the player to choose a Question (1, 2, 3, or 4).
-* Gives them a Question (e.g., “Question 1: Which team won the 2022 FIFA World Cup?” 
-                        or “Question 2: Which team lost the 2022 FIFA World Cup final”).
-* Ends after the second choice and displays amount won if the answer is correct.
+
+- Asks the player to choose a Question (1, 2, 3, or 4).
+- Gives them a Question (e.g., “Question 1: Which team won the 2022 FIFA World Cup?”
+  or “Question 2: Which team lost the 2022 FIFA World Cup final”).
+- Ends after the second choice and displays amount won if the answer is correct.
 
 The twist:
-* You must use multi-line comments to plan your game logic before you start coding.
-* You must use inline comments to explain why certain lines are written a certain way.
-* You must use single-line comments to describe major steps in the game.
-## End
+
+- You must use multi-line comments to plan your game logic before you start coding.
+- You must use inline comments to explain why certain lines are written a certain way.
+- You must use single-line comments to describe major steps in the game.
+
+## End of Exercises

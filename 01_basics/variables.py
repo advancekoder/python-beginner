@@ -64,3 +64,7 @@ _user_count = 5   # valid but leading underscore implies "internal" use
 # city = "Los Angeles"
 # year = 2025
 # print(f"I live in {city} and the year is {year}")
+
+# ================================
+# End of variables.py
+# ================================

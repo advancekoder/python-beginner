@@ -54,3 +54,5 @@ print("Person's name:", person["name"])  # Access using the key "name"
 # None means "nothing here" or "empty".
 nothing = None
 print("Nothing is:", nothing)
+
+# End of data_types.py

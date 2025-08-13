@@ -34,4 +34,4 @@ print("Area:", area)
 Note: This type of comment is useful for describing 
 what the code does or giving detailed instructions 
 '''
-# ===================================
+# End of comments.py
